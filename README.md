@@ -3,11 +3,10 @@
 
 Module for OpenCart
 
-## Использование
+## Usage 
+Since these menus are stored in the system settings, the menu can be displayed anywhere on the page, thereby not being limited to "locations"
 
-Так как данные меню храняться в системных настройках, меню можно вывести в любом месте на странице, тем самым не ограничиваясь «расположениями»
-
-Просто вставьте следующий код в любой шаблон, например в `/catalog/view/theme/default/template/common/header.tpl`
+Just paste the following code into any template such as `/catalog/view/theme/default/template/common/header.tpl`
 
 ```php
 <?php if($we_menu_cache = $this->config->get('we_menu_cache')){ ?>
